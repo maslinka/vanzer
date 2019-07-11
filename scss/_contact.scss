@@ -34,6 +34,10 @@
 
 	&__info {
 		height: 100vh;
+
+		@media (max-width: 768px) {
+			height: auto;
+		}
 	}
 
 	&__data {
@@ -55,6 +59,10 @@
 			color: #999;
 			margin: 7px 0;
 			font-size: 13px;
+
+			@media (max-width: 768px) {
+				display: inline;
+			}
 		}
 
 		a {

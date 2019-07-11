@@ -118,6 +118,12 @@ $(document).ready(function($) {
 			}
 		});
 
+		$('.main-menu').on('click', 'a', function (event) {
+			event.preventDefault();
+			console.log($(this).index());
+			$.fn.fullpage.moveTo($(this).index() + 2);
+		})
+
  });
 
 function initMap() {
