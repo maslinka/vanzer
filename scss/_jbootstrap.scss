@@ -1,0 +1,45 @@
+/*!Insert copyright here. This will be included in the compiled and minified CSS*/
+
+//Custom SCSS
+
+
+
+$red: #ff4200;
+$white:white;
+$gray-200: grey;
+$gray-500: grey;
+$gray-700: grey;
+$hamburger-color: #222;
+$hamburger-color-active: #fff;
+$hamburger-width: 25px;
+$hamburger-height: 2px;
+$hamburger-gutter: 5px;
+$fat-nav-bg-color: rgba(0, 0, 0, 0.8);
+$fat-nav-text-color: $hamburger-color-active;
+$fat-nav-trans-duration: .4s;
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge((
+  6: ($spacer * 5),
+  7: ($spacer * 7),
+  8: ($spacer * 9),
+  9: ($spacer * 11),
+  10: ($spacer * 18)
+), $spacers);
+
+$nav-link-padding-y:                .3rem;
+$nav-link-padding-x:                0;
+
+$nav-pills-border-radius:           none;
+$nav-pills-link-active-color:       #b3b3b3;
+$nav-pills-link-active-bg:          transparent;
+
+$border-radius:						0;
+$input-focus-border-color:			$red;
+
+
+
+
+
+

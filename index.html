@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Vanzer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.ico" />
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+	<!-- slider -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
+	<!-- fullpage -->
+	<link rel="stylesheet" type="text/css" href="dist/jquery.fullPage.css">
+
+	<!-- <link rel="stylesheet" type="text/css" href="dist/hamburger.css"> -->
+
+	<!-- animation -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+	<!-- custom -->
+
+	<!-- <link rel="stylesheet" type="text/css" href="dist/hamburger.css"> -->
+	<link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="dist/bootstrap-4.3.1/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/style.css">
+</head>
+
+<body class="fp-responsive">
+	<div id="fullpage">
+
+		<header class="header section">
+			<div class="header__nav is-animated">
+				<a href="#" class="header__logo"><img src="icons/logo.png" alt="VZ"></a>
+
+				<div class="wrapper">
+					<input type="checkbox" id="check-menu">
+					<label for="check-menu"></label>
+					<div class="burger-line first"></div>
+					<div class="burger-line second"></div>
+					<div class="burger-line third"></div>
+					<div class="burger-line fourth"></div>
+					<nav class="main-menu">
+						<a class="menu" href="#about">About</a>
+						<a class="menu" href="#services">Services</a>
+						<a class="menu" href="#portfolio">Portfolio</a>
+						<a class="menu" href="#blog">Blog</a>
+						<a class="menu" href="#contact">Contact</a>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="container header__container col-sm-12 col-md-9 col-l-9 col-xl-9 pl-5">
+
+					<h1 class="text-uppercase header__title is-animated">Vanzer</h1>
+					<h2 class="text-uppercase header__subtitle is-animated">Color. Design. Life</h2>
+
+
+					<button class="header__btn is-animated text-left text-white pt-3 px-0 mt-5">Read More<i
+							class="header__arr fas fa-long-arrow-alt-right"></i></button>
+				</div>
+			</div>
+			<aside class="header__socials d-flex flex-column justify-content-center">
+				<a href="#"><i class="is-animated fab fa-facebook-f"></i></a>
+				<a href="#"><i class="is-animated fab fa-twitter"></i></a>
+				<a href="#"><i class="is-animated fab fa-dribbble"></i></a>
+				<a href="#"><i class="is-animated fab fa-behance"></i></a>
+			</aside>
+		</header>
+
+
+		<section class="about section" id="about">
+
+			<div class="container about__container">
+				<div class="row">
+					<div class="col-xl-12 pl-7">
+						<h1 class="about__title is-animated text-uppercase"><span>Creative</span> Studio</h1>
+
+						<p class="about__txt is-animated pt-4 pl-6 mt-7">Lorem ipsum dolor sit amet, consectetur
+							adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+							ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services section" id="services">
+			<div class="container services__container">
+				<div class="row">
+					<div class="offset-1 mb-9 col-9 col-xl-12">
+						<h1 class="services__title text-uppercase text-white is-animated">Services</h1>
+					</div>
+					<div class="services__category offset-1 col-5 nav flex-column nav-pills" id="v-pills-s-tab"
+						role="tablist" aria-orientation="vertical" style="padding-left: 15px;">
+						<a class="services__link is-animated my-2 nav-link" id="v-pills-s-industrial-tab"
+							data-toggle="pill" href="#v-pills-s-industrial" role="tab"
+							aria-controls="v-pills-s-industrial" aria-selected="true">Industrial design</a>
+						<a class="services__link is-animated my-2 nav-link" id="v-pills-s-web-tab" data-toggle="pill"
+							href="#v-pills-s-web" role="tab" aria-controls="v-pills-s-web" aria-selected="false">Web
+							design</a>
+						<a class="services__link is-animated my-2 nav-link active" id="v-pills-s-photography-tab"
+							data-toggle="pill" href="#v-pills-s-photography" role="tab"
+							aria-controls="v-pills-s-photography" aria-selected="false">Photography</a>
+					</div>
+
+					<div class="services__description is-animated mt-7 offset-1 col-5 tab-content"
+						id="v-pills-s-tabContent">
+						<div class="services__cat-info tab-pane fade" id="v-pills-s-industrial" role="tabpanel"
+							aria-labelledby="v-pills-s-industrial-tab">
+							<h3 class="services__cat-title services__cat-title--industrial">Industrial design</h3>
+							<p class="services__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Necessitatibus esse ipsam aspernatur iste sit porro.</p>
+						</div>
+						<div class="services__cat-info tab-pane fade" id="v-pills-s-web" role="tabpanel"
+							aria-labelledby="v-pills-s-web-tab">
+							<h3 class="services__cat-title services__cat-title--web">Web design</h3>
+							<p class="services__txt">Lip ex ea commodo
+								consequat. Duis aute irure esse
+								cillum dolore eu fugiat nulla pariatur. In voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+						<div class="services__cat-info tab-pane fade active show" id="v-pills-s-photography"
+							role="tabpanel" aria-labelledby="v-pills-s-photography-tab">
+							<h3 class="services__cat-title services__cat-title--photo">Photography</h3>
+							<p class="services__txt"> Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio section" id="portfolio">
+			<div class="container portfolio__container">
+				<div class="row">
+					<div class="offset-1 mb-7 mt-7 col-12">
+						<h1 class="portfolio__title is-animated text-uppercase text-white pb-3">Portfolio</h1>
+					</div>
+					<div class="is-animated offset-1 col-7 mt-4">
+						<div class="row carousel">
+							<div class="portfolio__project mx-2 text-center text-white">
+								<div class="portfolio__photo">
+									<img src="images/pr1.jpg" alt="">
+								</div>
+								<div class="portfolio__info mt-3">
+									<h6 class="text-uppercase">Coffee Cup</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+									<div
+										class="portfolio__link mx-auto d-flex justify-content-center align-items-center">
+										<img src="icons/link.svg" alt=""></div>
+								</div>
+							</div>
+							<div class="portfolio__project mx-2 text-center text-white">
+								<div class="portfolio__photo">
+									<img src="images/pr2.jpg" alt="">
+								</div>
+								<div class="portfolio__info mt-4">
+									<h6 class="text-uppercase">Coffee Cup</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+									<div
+										class="portfolio__link mt-4 mx-auto d-flex justify-content-center align-items-center">
+										<img src="icons/link.svg" alt=""></div>
+								</div>
+							</div>
+							<div class="portfolio__project mx-2 text-center text-white">
+								<div class="portfolio__photo">
+									<img src="images/pr3.jpg" alt="">
+								</div>
+								<div class="portfolio__info mt-4">
+									<h6 class="text-uppercase">Coffee Cup</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+									<div
+										class="portfolio__link mt-4 mx-auto d-flex justify-content-center align-items-center">
+										<img src="icons/link.svg" alt=""></div>
+								</div>
+							</div>
+							<div class="portfolio__project mx-2 text-center text-white">
+								<div class="portfolio__photo">
+									<img src="images/pr4.png" alt="">
+								</div>
+								<div class="portfolio__info mt-4">
+									<h6 class="text-uppercase">Coffee Cup</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+									<div
+										class="portfolio__link mt-4 mx-auto d-flex justify-content-center align-items-center">
+										<img src="icons/link.svg" alt=""></div>
+								</div>
+							</div>
+							<div class="portfolio__project mx-2 text-center text-white">
+								<div class="portfolio__photo">
+									<img src="images/pr5.png" alt="">
+								</div>
+								<div class="portfolio__info mt-4">
+									<h6 class="text-uppercase">Coffee Cup</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+									<div
+										class="portfolio__link mt-4 mx-auto d-flex justify-content-center align-items-center">
+										<img src="icons/link.svg" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact section" id="contact">
+
+			<div class="contact__left w-50 position-absolute"></div>
+			<div class="contact__map w-50 position-absolute" id="map"></div>
+
+			<div class="container contact__container">
+				<div class="row">
+					<div class="contact__info offset-1 col-5 d-flex flex-column justify-content-between">
+						<h1 class="contact__title is-animated text-uppercase text-white pt-5">Contact</h1>
+
+						<div class="contact__data is-animated offset-1 mt-4 mb-7">
+							<div class="contact__elem">
+								<img src="icons/mail.svg" alt="">
+								<h6 class="text-uppercase contact__info-title">E-mail</h6>
+								<p>masslingo@gmail.com</p>
+							</div>
+							<div class="contact__elem">
+								<img src="icons/phone.svg" alt="">
+								<h6 class="text-uppercase contact__info-title">Phone</h6>
+								<a class="" href="tel:0958160398">+380 95 816 03 98</a>
+							</div>
+							<div class="contact__elem">
+								<img src="icons/location.svg" alt="">
+								<h6 class="text-uppercase contact__info-title">Adress</h6>
+								<p>Vanzer</p>
+								<p>Baker St.</p>
+								<p>London, England</p>
+							</div>
+						</div>
+						<p class="contact__copyright is-animated mb-4">Copyright © 2019 All Right Reserved</span></p>
+					</div>
+
+
+					<div class="contact__form-container is-animated col-5 pb-4 d-flex flex-column justify-content-end">
+						<form class="contact__form px-5 py-4">
+							<div class="row">
+								<div class="col-12 p-0 d-flex justify-content-between">
+									<input type="text" class="contact__input contact__input--half py-2 px-3"
+										placeholder="Your Name">
+									<input type="email" class="contact__input contact__input--half py-2 px-3"
+										placeholder="Your E-Mail">
+								</div>
+								<input type="text" class="contact__input py-2 px-3 col-12 mt-4"
+									placeholder="Your Topic">
+								<textarea class="contact__input py-2 px-3 col-12 mt-4" rows="5"
+									placeholder="Message"></textarea>
+								<button type="submit" class="contact__btn col-5 text-white mt-4">Send message</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script> <!-- jquery -->
+	<script src="js/jquery.fullPage.js"></script> <!-- fullpage -->
+	<script src="js/scrolloverflow.min.js"></script>
+	<!--fullpage -->
+
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/jquery.visible.min.js"></script>
+	<script src="js/jquery.fatNav.js"></script>
+	<!-- slider -->
+	<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<!-- custom -->
+	<script src="js/script.js"></script>
+
+	<!-- google maps -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDW00wd4VXgnZBcUrO4fmO0oXp0kVHK6g" async defer>
+	</script>
+
+	<!-- bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+
+</body>
+
+</html>
