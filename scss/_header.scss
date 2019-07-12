@@ -45,6 +45,12 @@
 		font-size: 21px;
 		color: $gray-500;
 		letter-spacing: .250em;
+		@media (max-width: 375px) {
+			color:white;
+			letter-spacing: .300em;
+			font-size: 16px;	
+		}
+
 	}
 
 

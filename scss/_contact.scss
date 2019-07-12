@@ -21,6 +21,9 @@
 		&:before {
 			content: "";
 			@include title-line;
+			@media (max-width: 375px) {
+				width: 200px;
+			}
 		}
 
 		&:after {
@@ -35,8 +38,9 @@
 	&__info {
 		height: 100vh;
 
-		@media (max-width: 768px) {
+		@media (max-width: 375px) {
 			height: auto;
+			font-size:10px;
 		}
 	}
 
@@ -48,6 +52,7 @@
 		font-family: 'Lato', Arial, sans-serif;
 		margin: 20px 0;
 		position: relative;
+	
 
 		img {
 			width: 25px;
@@ -106,6 +111,7 @@
 	&__form {
 		background-color: #fff;
 		pointer-events: all;
+		
 
 		&-container {
 			pointer-events: none;
@@ -140,6 +146,12 @@
 		background-color: $red;
 		font-size: 14px;
 		padding: 10px 20px;
+		@media (max-width: 375px) {
+			font-size: 14px;
+		padding: 5px 2px;
+
+		}
+		
 
 		&:hover {
 			background-color: darken($red, 10%);
@@ -157,14 +169,3 @@
 	overflow: hidden;
 }
 
-.aaa {
-		color: $gray-500;
-		@include transition;
-		cursor: pointer;
-
-	&:hover {
-		color: lighten($red,20%);
-		@include transition;
-
-	}
-}

@@ -30,6 +30,9 @@
 		color: $gray-500;
 		letter-spacing: .200em;
 		width: 65%;
+		@media (max-width: 375px) {
+			width: 80%;
+		}
 
 		&::before {
 			content: "";
@@ -38,6 +41,9 @@
 			height: 2px;
 			width: 350px;
 			background-color: $gray-500;
+			@media (max-width: 375px) {
+				width: 200px;
+			}
 		}
 	}
 

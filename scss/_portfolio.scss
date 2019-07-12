@@ -22,6 +22,9 @@
 		&:before {
 			content: "";
 			@include title-line;
+			@media (max-width: 375px) {
+				width: 200px;
+			}
 		}
 
 		&:after {
@@ -46,6 +49,10 @@
 		padding: 50%;
 		position: relative;
 		overflow: hidden;
+		@media (max-width: 375px){
+			padding-top:100px;
+			
+		}
 
 		img {
 			height: 100%;
@@ -108,6 +115,7 @@
 	&:focus {
 		outline: none;
 	}
+	
 }
 // .slick-slider{
 // 	width:2000px;
@@ -115,6 +123,10 @@
 .slick-dots {
 	bottom: 35px;
 	left: 80%;
+	@media (max-width: 375px){
+		left: 30%;
+		
+	}
 
 	li {
 		button:before {

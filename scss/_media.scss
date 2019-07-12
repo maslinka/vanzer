@@ -16,13 +16,35 @@
 @media (max-width: 375px){
     .header__title {
         position: relative;
-        font-size: 14px;
+        font-size: 30px;
         letter-spacing: .5em;
     }
     .about__title {
         position: relative;
-        font-size: 14px;
+        font-size: 30px;
         letter-spacing: .5em;
+    }
+    .services__title {
+        position: relative;
+        font-size: 30px;
+        letter-spacing: .5em;
+    }
+    .portfolio__title {
+        position: relative;
+        font-size: 30px;
+        letter-spacing: .5em;
+    }
+    .contact__title {
+        position: relative;
+        font-size: 30px;
+        letter-spacing: .5em;
+    }
+    @mixin title-line {
+        position: absolute;
+        bottom: 0;
+        height: 2px;
+        width: 200px;
+        background-color: $red;
     }
 
 }
