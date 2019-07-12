@@ -238,6 +238,7 @@ label {
     overflow: hidden;
     transition: .5s all;
     background-color: grey;
+    z-index:1000;
 }
 
 a.menu {
@@ -256,6 +257,7 @@ a.menu:hover {
 
 #check-menu:checked~.main-menu {
     max-height: 500px;
+    z-index:1000;
     font-size: 16px;
 }
 
