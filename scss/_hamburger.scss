@@ -232,7 +232,8 @@ label {
 .main-menu {
     display: block;
     position: absolute;
-    width: 400px;
+    width: calc(100vw - 50px);
+  
     bottom: 0;
     right: 0;
     transform: translateY(100%);
