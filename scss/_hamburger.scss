@@ -182,13 +182,16 @@
     margin: 0;
     width: 55px;
     background-color: #000;
-    opacity: 0.5;
+    opacity: 0.7;
     position: sticky;
     right: 10px;
     color: white;
     text-align: center;
     height: 40px;
-    font-family: 'Arial';;
+    font-family: 'Arial';
+    @media (max-width: 375px) {
+        opacity: 0.9;	
+    }
 }
 
 #check-menu {
